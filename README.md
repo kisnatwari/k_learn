@@ -1,2 +1,2 @@
-FrontEnd Project using ReacrJS
+FrontEnd Project using ReactJS
 DEMO frontend project
