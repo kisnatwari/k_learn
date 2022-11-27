@@ -1,0 +1,37 @@
+.video-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.large-title {
+    font-family: 'poppins', sans-serif;
+    font-size: 100px;
+}
+
+
+@media(max-width: 768px) {
+    .video-box {
+        height: 350px;
+    }
+}

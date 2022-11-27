@@ -1,0 +1,54 @@
+[
+    {
+        "key": 1,
+        "label": "Home",
+        "dropdown": false,
+        "url": "/",
+        "button": false
+    },
+    {
+        "key": 2,
+        "label": "Blog",
+        "dropdown": false,
+        "url": "/blog",
+        "button": false
+    },
+    {
+        "key": 3,
+        "label": "Courses",
+        "dropdown": true,
+        "dropdownMenu": [
+            {
+                "key": 4,
+                "label": "Software Engineering",
+                "url": "/software-engineering",
+                "button": false
+            },
+            {
+                "key": 5,
+                "label": "Web Development",
+                "url": "/web-development",
+                "button": false
+            },
+            {
+                "key": 6,
+                "label": "Robotics",
+                "url": "/robotics",
+                "button": false
+            }
+        ],
+        "button": false
+    },
+    {
+        "key": 7,
+        "label": "Contact Us",
+        "url": "/contact-us",
+        "button": false
+    },
+    {
+        "key": 8,
+        "label": "Register Now",
+        "url": "/register",
+        "button": true
+    }
+]

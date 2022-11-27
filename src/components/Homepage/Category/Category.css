@@ -1,0 +1,12 @@
+.cat-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: #dedede;
+}
+
+.cat-icon i.fa {
+    font-size: 35px;
+}

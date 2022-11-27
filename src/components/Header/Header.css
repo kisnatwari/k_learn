@@ -1,0 +1,75 @@
+.nav-link,
+.navbar-brand {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 17px;
+    margin-left: 12px;
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: #00000060 !important;
+    border: solid #34567860 2px;
+    animation: flipInY;
+    animation-duration: 0.7s;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    background: -webkit-linear-gradient(45deg, #010738, #4BB1FD, #B648FB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-img {
+    width: 37px;
+    height: 37px;
+    object-fit: cover;
+    padding: 1px;
+    margin-bottom: 5px;
+    border: solid #798AFD 2px;
+}
+
+.nav-link.btn {
+    height: 42px;
+}
+
+.up-arrow {
+    color: #00000060;
+    font-size: 40px !important;
+    position: absolute;
+    top: -27px;
+    left: 50%;
+}
+
+
+@media(max-width: 768px) {
+    .dropdown-menu {
+        animation: slideInRight;
+        animation-duration: 0.3s;
+    }
+
+    .up-arrow {
+        top: 18px;
+        left: 45px;
+    }
+
+    .navbar-toggler {
+        border: solid white 2px;
+    }
+
+    .navbar-toggler-icon {
+        color: white !important;
+        background: inherit !important;
+    }
+
+    .navbar-toggler-icon::before {
+        font-family: 'FontAwesome';
+        content: "\f0c9";
+        font-size: 25px;
+        color: white;
+    }
+}
